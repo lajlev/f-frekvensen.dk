@@ -142,6 +142,7 @@ a {
             transition: all .1s ease-in-out;
 }
 a:hover {
+    text-decoration: underline;
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;
         -ms-transition: all .1s ease-in-out;
@@ -1139,6 +1140,9 @@ SIDEBAR (#container-sidebar)
 }
 #container-sidebar .widget h3{
     padding-bottom: 12px;
+}
+#container-sidebar .widget h3 label {
+    font-weight: bold;
 }
 #wrapper-container .container .widget ul{
     padding-left: 0;

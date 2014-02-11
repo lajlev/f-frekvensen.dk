@@ -2,11 +2,11 @@
  * Hurry - Minimalist Blogging Theme
  *
  * Copyright (c) 2013 F²
- * 
+ *
  * Responsive changes
- * 
+ *
  */
-@media (max-width: 1100px) { 
+@media (max-width: 1100px) {
 	.container{
 	    width: 720px;
 	}
@@ -26,7 +26,7 @@
 		margin: 5%;
 	}
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 788px) and (max-width: 979px) {
 	#main-menu #logo, #main-menu #menu {
@@ -52,14 +52,14 @@
 		margin-bottom: 12px;
 	}
    .one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth {
-    	width: 100%; 
+    	width: 100%;
     }
 	#container-sidebar .widget{
 		width: 100%;
 		margin: 0%;
 	}
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 787px) {
 	.container{
@@ -97,16 +97,19 @@
 		margin: 0%;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 640px) {
 	h1 { font-size: 28px; line-height: 65px; font-weight: bold; letter-spacing: -2px;}
 	h2, h2 p { font-size: 20px; line-height: 50px; font-weight: bold; letter-spacing: -2px;}
-	p{font-size: 15px;}
+	p{
+		font-size: 13px;
+		line-height: 50px;
+	}
 	h4,h4 p {
 	    font: 18px ;
 	    margin-bottom: 25px;
-	    font-weight: 300; 
+	    font-weight: 300;
 	}
 	#main-menu #logo, #main-menu #menu {
 		float: none;
@@ -116,7 +119,7 @@
 		line-height: 36px;
 	}
 	.container{
-	    width: 240px;
+	   width: 240px;
 	}
 	#wrapper-container #masonry-container .masonry-item, #wrapper-container #masonry-container .masonry-item.sticky{
 		width: 240px;

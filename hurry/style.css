@@ -141,7 +141,8 @@ a {
          -o-transition: all .1s ease-in-out;
             transition: all .1s ease-in-out;
 }
-a:not(.button):hover {
+a:not(.button):hover,
+a:not(.voted):hover {
     text-decoration: underline;
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;

@@ -40,7 +40,7 @@
                     <div class="breaker"></div>
                     <ul>
                         <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
-                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
+                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('Skriv kommentar', '1 Kommentar', '% Kommentarer', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
                         <li><span class="icon">&#128100;</span> <?php _e('By','hurry'); ?> <?php the_author_link(); ?></li>
                     </ul>
                     <div class="breaker"></div>

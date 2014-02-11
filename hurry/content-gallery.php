@@ -30,7 +30,7 @@ if ( is_single() ) {
                     <div class="breaker"></div>
                     <ul>
                         <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
-                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
+                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('Skriv kommentar', '1 Kommentar', '% Kommentarer', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
                         <?php echo getPostLikeLink(get_the_ID());?>
                         <?php if (has_category('',$post->ID)): ?>
                             <li><span class="icon">&#59392;</span> <?php _e('Categorized in','hurry'); ?> <?php the_category(', '); ?></li>
@@ -137,7 +137,7 @@ if ( is_single() ) {
                 <div id="postmetadata">
                     <ul>
                         <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
-                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
+                        <li><span class="icon">&#59160;</span> <?php comments_popup_link('Skriv kommentar', '1 Kommentar', '% Kommentarer', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
                         <?php echo getPostLikeLink(get_the_ID());?>
                         <?php if (has_category('',$post->ID)): ?>
                             <li><span class="icon">&#59392;</span> <?php _e('Categorized in','hurry'); ?> <?php the_category(', '); ?></li>

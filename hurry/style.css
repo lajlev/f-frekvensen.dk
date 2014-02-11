@@ -142,7 +142,9 @@ a {
             transition: all .1s ease-in-out;
 }
 a:not(.button):hover,
-a:not(.voted):hover {
+a:not(.voted):hover,
+a:not([data-rel="tooltip"]):hover,
+a:not([data-rel="tooltip"]) {
     text-decoration: underline;
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;

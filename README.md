@@ -1,3 +1,3 @@
-Wordpress theme for f-frekvensen
+Wordpress theme for f-frekvensen.dk
 ===============
 

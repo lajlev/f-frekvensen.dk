@@ -3,7 +3,7 @@
  * The default template for displaying content. Used for both single and index/archive/search.
  */
 ?>
-<?php 
+<?php
 /*
 * IF WE ARE IN THE POST PAGE
 */
@@ -15,8 +15,8 @@ if ( is_single() ) {
         <?php if ( has_post_thumbnail() ): ?>
             <div id="container-header" class="featured-image-on">
                 <?php
-                    $image_id = get_post_thumbnail_id();  
-                    $image_url = wp_get_attachment_image_src($image_id,'full');  
+                    $image_id = get_post_thumbnail_id();
+                    $image_url = wp_get_attachment_image_src($image_id,'full');
                     $image_url = $image_url[0];
                 ?>
                 <div style="background-image: url('<?php echo $image_url; ?>');">
@@ -42,17 +42,17 @@ if ( is_single() ) {
             </div><!-- end .container-padding -->
 
             <?php if( rwmb_meta('hurry_post_meta') == "1"): ?>
-                <!-- // POSTMETADATA // --> 
+                <!-- // POSTMETADATA // -->
                 <div id="postmetadata">
                     <div class="breaker"></div>
                     <ul>
-                        <li><span class="icon">&#128340;</span> <?php the_time('F j, Y'); ?></li>
+                        <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
                         <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
-                        <?php echo getPostLikeLink(get_the_ID());?> 
+                        <?php echo getPostLikeLink(get_the_ID());?>
                         <?php if (has_category('',$post->ID)): ?>
                             <li><span class="icon">&#59392;</span> <?php _e('Categorized in','hurry'); ?> <?php the_category(', '); ?></li>
-                        <?php endif; ?>    
-                        <?php if (has_tag('',$post->ID)): ?>                       
+                        <?php endif; ?>
+                        <?php if (has_tag('',$post->ID)): ?>
                             <li><span class="icon">&#128278;</span> <?php _e('Tagged in','hurry'); ?> <?php the_tags(', '); ?></li>
                         <?php endif; ?>
                         <li><span class="icon">&#128100;</span> <?php _e('By','hurry'); ?> <?php the_author_link(); ?></li>
@@ -62,10 +62,10 @@ if ( is_single() ) {
                     </ul>
                     <div class="breaker"></div>
                 </div><!-- end #postmetadata -->
-            <?php endif; ?> 
+            <?php endif; ?>
 
             <?php if( rwmb_meta('hurry_post_author') == "1"): ?>
-                <!-- // AUTHOR // --> 
+                <!-- // AUTHOR // -->
                 <div id="container-author">
                     <div class="container-padding">
                         <?php echo get_avatar( get_the_author_meta('ID'), 80); ?>
@@ -73,16 +73,16 @@ if ( is_single() ) {
                         <p><?php the_author_meta('description'); ?></p>
                     </div><!-- end .container-padding -->
                 </div><!-- end #container-author -->
-            <?php endif; ?> 
+            <?php endif; ?>
 
             <?php if( rwmb_meta('hurry_post_comments') == "1"): ?>
-                <!-- // COMMENTS // --> 
+                <!-- // COMMENTS // -->
                 <?php comments_template( '', true ); ?>
-            <?php endif; ?> 
+            <?php endif; ?>
 
         </div><!-- end .container-content -->
-    
-        <!-- // NAVIGATION // --> 
+
+        <!-- // NAVIGATION // -->
         <div id="container-footer">
             <nav class="post-navigation" role="navigation">
                 <?php next_post_link( '%link', '&#59229' ); ?>
@@ -94,8 +94,8 @@ if ( is_single() ) {
 
     <?php if( rwmb_meta('hurry_post_sidebar') == "1"): ?>
         <?php get_sidebar(); ?>
-    <?php endif; ?> 
-<?php 
+    <?php endif; ?>
+<?php
 
 /*
 * OTHERWISE IF IT'S ARCHIVE/SEARCH/CATEGORY/HOME.
@@ -103,7 +103,7 @@ if ( is_single() ) {
 } elseif( is_home() OR is_search() OR is_archive() ) {
 
 ?>
-    <!-- // A POST // --> 
+    <!-- // A POST // -->
     <div class="post post-normal masonry-item view <?php if(is_sticky()): ?>sticky<?php endif;?>">
         <div class="post-absolute-container">
             <?php if ( has_post_thumbnail() ): ?>
@@ -120,28 +120,28 @@ if ( is_single() ) {
                     <a href="<?php echo get_permalink( $id ); ?>"><h4><?php the_title(); ?></h4></a>
                     <div class="post-hover-matadata">
                         <ul>
-                            <li><span class="icon">&#128340;</span><a href="<?php echo get_permalink( $id ); ?>"> <?php the_time('F j, Y'); ?></a></li>
+                            <li><span class="icon">&#128340;</span><a href="<?php echo get_permalink( $id ); ?>"> <?php the_time('j. F, Y'); ?></a></li>
                             <li><span class="icon">&#59160;</span> <?php comments_popup_link('0', '1', '%', 'comments-link', '<div class="commentoff"></div>'); ?></li>
-                            <?php echo getPostLikeLink(get_the_ID());?> 
+                            <?php echo getPostLikeLink(get_the_ID());?>
                         </ul>
                     </div><!-- end .post-hover-matadata -->
                 </div><!-- end .post-hidden -->
-            <?php endif; ?> 
+            <?php endif; ?>
         </div><!-- end .post-absolute-container -->
-    </div><!-- end .post -->  
-<?php 
+    </div><!-- end .post -->
+<?php
 /*
 * FOR STANDARD BLOG PAGE
 */
 } else {
 ?>
-    <!-- // A POST // --> 
+    <!-- // A POST // -->
     <div class="post post-normal">
         <?php if ( has_post_thumbnail() ): ?>
             <div id="container-header" class="featured-image-on">
                 <?php
-                    $image_id = get_post_thumbnail_id();  
-                    $image_url = wp_get_attachment_image_src($image_id,'full');  
+                    $image_id = get_post_thumbnail_id();
+                    $image_url = wp_get_attachment_image_src($image_id,'full');
                     $image_url = $image_url[0];
                 ?>
                 <div style="background-image: url('<?php echo $image_url; ?>');">
@@ -164,16 +164,16 @@ if ( is_single() ) {
             </div><!-- end .container-padding -->
             <?php if( rwmb_meta('hurry_post_meta') == "1"): ?>
                 <div class="breaker"></div>
-                <!-- // POSTMETADATA // --> 
+                <!-- // POSTMETADATA // -->
                 <div id="postmetadata">
                     <ul>
-                        <li><span class="icon">&#128340;</span> <?php the_time('F j, Y'); ?></li>
+                        <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
                         <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
-                        <?php echo getPostLikeLink(get_the_ID());?> 
+                        <?php echo getPostLikeLink(get_the_ID());?>
                         <?php if (has_category('',$post->ID)): ?>
                             <li><span class="icon">&#59392;</span> <?php _e('Categorized in','hurry'); ?> <?php the_category(', '); ?></li>
-                        <?php endif; ?>    
-                        <?php if (has_tag('',$post->ID)): ?>                       
+                        <?php endif; ?>
+                        <?php if (has_tag('',$post->ID)): ?>
                             <li><span class="icon">&#128278;</span> <?php _e('Tagged in','hurry'); ?> <?php the_tags(', '); ?></li>
                         <?php endif; ?>
                         <li><span class="icon">&#128100;</span> <?php _e('By','hurry'); ?> <?php the_author_link(); ?></li>
@@ -188,6 +188,6 @@ if ( is_single() ) {
         </div><!-- end .container-content -->
     </div><!-- end .post -->
 
-<?php 
-} 
+<?php
+}
 ?>

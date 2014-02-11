@@ -16,8 +16,8 @@ get_header(); ?>
 
                                 <div id="container-header" class="featured-image-on">
                                     <?php
-                                        $image_id = get_post_thumbnail_id();  
-                                        $image_url = wp_get_attachment_image_src($image_id,'full');  
+                                        $image_id = get_post_thumbnail_id();
+                                        $image_url = wp_get_attachment_image_src($image_id,'full');
                                         $image_url = $image_url[0];
                                     ?>
                                     <div style="background-image: url('<?php echo $image_url; ?>');">
@@ -32,14 +32,14 @@ get_header(); ?>
                                     </div><!-- end .container-padding -->
 
                                     <?php if( rwmb_meta('hurry_post_meta') == "1"): ?>
-                                        <!-- // POSTMETADATA // --> 
+                                        <!-- // POSTMETADATA // -->
                                         <div id="postmetadata">
                                             <div class="breaker"></div>
                                             <ul>
-                                                <li><span class="icon">&#128340;</span> <?php the_time('F j, Y'); ?></li>
+                                                <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
                                                 <?php if (has_category('',$post->ID)): ?>
                                                     <li><span class="icon">&#59392;</span> <?php _e('Categorized in','hurry'); ?> <?php the_category(', '); ?></li>
-                                                <?php endif; ?>    
+                                                <?php endif; ?>
                                                 <li><span class="icon">&#128100;</span> <?php _e('By','hurry'); ?> <?php the_author_link(); ?></li>
                                                 <?php if( function_exists('zilla_share') ): ?>
                                                     <li><span class="icon">&#59157;</span><?php zilla_share(); ?></li>
@@ -47,10 +47,10 @@ get_header(); ?>
                                             </ul>
                                             <div class="breaker"></div>
                                         </div><!-- end #postmetadata -->
-                                    <?php endif; ?> 
+                                    <?php endif; ?>
 
-                            
-                                <!-- // NAVIGATION // --> 
+
+                                <!-- // NAVIGATION // -->
                                 <div id="container-footer">
                                     <nav class="post-navigation" role="navigation">
                                         <?php next_post_link( '%link', '&#59229' ); ?>

@@ -33,8 +33,8 @@ get_header(); ?>
                             <?php if (have_posts()) : ?>
                                 <?php while ( have_posts() ) : the_post(); ?>
 
-                                    <!-- // A POST // --> 
-                                    <?php 
+                                    <!-- // A POST // -->
+                                    <?php
                                     $terms2 = get_the_terms($post->ID,'gallery_category');
                                     $count2 = count($terms2);
                                     ?>
@@ -43,15 +43,15 @@ get_header(); ?>
                                             <a href="<?php echo get_permalink( $id ); ?>"><?php the_post_thumbnail(); ?></a>
                                             <div class="post-hidden">
                                                 <?php
-                                                    $image_id = get_post_thumbnail_id();  
-                                                    $image_url = wp_get_attachment_image_src($image_id,'full');  
+                                                    $image_id = get_post_thumbnail_id();
+                                                    $image_url = wp_get_attachment_image_src($image_id,'full');
                                                     $image_url = $image_url[0];
                                                 ?>
                                                 <a href="<?php echo $image_url; ?>" data-rel="prettyPhoto" class="post-icon-link"><span class="post-icon icon large">&#128247;</span></a>
                                                 <a href="<?php echo $image_url; ?>" data-rel="prettyPhoto"><h4><?php the_title(); ?></h4></a>
                                                 <div class="post-hover-matadata">
                                                     <ul>
-                                                        <li><span class="icon">&#128340;</span> <a href="<?php echo get_permalink( $id ); ?>"> <?php the_time('F j, Y'); ?> </a></li>
+                                                        <li><span class="icon">&#128340;</span> <a href="<?php echo get_permalink( $id ); ?>"> <?php the_time('j. F, Y'); ?> </a></li>
                                                     </ul>
                                                 </div><!-- end .post-hover-matadata -->
                                             </div><!-- end .post-hidden -->
@@ -65,18 +65,18 @@ get_header(); ?>
 
                         <div class="clearboth"></div>
                             <?php if ( $wp_query->max_num_pages > 1 ) : ?>
-                                <!-- // NAVIGATION // --> 
+                                <!-- // NAVIGATION // -->
                                 <div id="container-footer">
                                     <nav class="post-navigation infinite-nav" role="navigation">
                                         <?php next_posts_link('<span class="infinite-textbtn load">'. __( 'Load more images', 'hurry' ) .'</span>' ); ?>
                                         <span class="infinite-loader"></span>
                                     </nav>
-                                </div><!-- end #container-footer -->              
+                                </div><!-- end #container-footer -->
                             <?php endif; ?>
                             <?php wp_reset_query(); ?>
                         </div><!-- end .container-content -->
                     </div><!-- end .one -->
                 </div><!-- end #container-main -->
             </section><!-- #wrapper-main -->
-                
+
 <?php get_footer(); ?>

@@ -8,8 +8,8 @@
         <?php if ( has_post_thumbnail() ): ?>
             <div id="container-header" class="featured-image-on">
                 <?php
-                    $image_id = get_post_thumbnail_id();  
-                    $image_url = wp_get_attachment_image_src($image_id,'full');  
+                    $image_id = get_post_thumbnail_id();
+                    $image_url = wp_get_attachment_image_src($image_id,'full');
                     $image_url = $image_url[0];
                 ?>
                 <div style="background-image: url('<?php echo $image_url; ?>');">
@@ -35,20 +35,20 @@
             </div><!-- end .container-padding -->
 
             <?php if( rwmb_meta('hurry_post_meta') == "1"): ?>
-                <!-- // POSTMETADATA // --> 
+                <!-- // POSTMETADATA // -->
                 <div id="postmetadata">
                     <div class="breaker"></div>
                     <ul>
-                        <li><span class="icon">&#128340;</span> <?php the_time('F j, Y'); ?></li>
+                        <li><span class="icon">&#128340;</span> <?php the_time('j. F, Y'); ?></li>
                         <li><span class="icon">&#59160;</span> <?php comments_popup_link('0 Comment', '1 Comment', '% Comments', 'comments-link', '<div class="commentoff">No comments on this post</div>'); ?></li>
                         <li><span class="icon">&#128100;</span> <?php _e('By','hurry'); ?> <?php the_author_link(); ?></li>
                     </ul>
                     <div class="breaker"></div>
                 </div><!-- end #postmetadata -->
-            <?php endif; ?> 
+            <?php endif; ?>
 
             <?php if( rwmb_meta('hurry_post_author') == "1"): ?>
-                <!-- // AUTHOR // --> 
+                <!-- // AUTHOR // -->
                 <div id="container-author">
                     <div class="container-padding">
                         <?php echo get_avatar( get_the_author_meta('ID'), 80); ?>
@@ -56,15 +56,15 @@
                         <p><?php the_author_meta('description'); ?></p>
                     </div><!-- end .container-padding -->
                 </div><!-- end #container-author -->
-            <?php endif; ?> 
+            <?php endif; ?>
 
             <?php if( rwmb_meta('hurry_post_comments') == "1"): ?>
-                <!-- // COMMENTS // --> 
+                <!-- // COMMENTS // -->
                 <?php comments_template( '', true ); ?>
-            <?php endif; ?> 
+            <?php endif; ?>
 
         </div><!-- end .container-content -->
-        <!-- // NAVIGATION // --> 
+        <!-- // NAVIGATION // -->
         <div id="container-footer" style="display: none;">
             <nav class="post-navigation" role="navigation">
                 <?php $args = array(
@@ -78,13 +78,13 @@
                     'pagelink'         => '%',
                     'echo'             => 1
                 ); ?>
-                <?php wp_link_pages( $args ); ?> 
+                <?php wp_link_pages( $args ); ?>
             </nav><!-- end .navigation -->
-        </div><!-- end #container-footer -->  
+        </div><!-- end #container-footer -->
 
     </article><!-- end .page -->
-    
+
     <?php if( rwmb_meta('hurry_page_sidebar') == "1"): ?>
         <?php get_sidebar(); ?>
-    <?php endif; ?> 
+    <?php endif; ?>
 

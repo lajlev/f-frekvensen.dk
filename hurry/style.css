@@ -141,15 +141,11 @@ a {
          -o-transition: all .1s ease-in-out;
             transition: all .1s ease-in-out;
 }
-a:not(.button):hover,
-a:not(.voted):hover {
+
+.container-main a:hover {
     text-decoration: underline;
-    -webkit-transition: all .1s ease-in-out;
-       -moz-transition: all .1s ease-in-out;
-        -ms-transition: all .1s ease-in-out;
-         -o-transition: all .1s ease-in-out;
-            transition: all .1s ease-in-out;
 }
+
 h2,h3,h4,h5,h6, h2 p { color: #2E3236; font-weight: bold; }
 h1 { font-size: 54px; line-height: 65px; font-weight: bold; letter-spacing: -2px;}
 h2, h2 p { font-size: 36px; line-height: 50px; font-weight: bold; letter-spacing: -2px;}

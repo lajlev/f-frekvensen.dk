@@ -75,7 +75,7 @@ msgstr "Tagget i"
 #: ../content-status.php:183 ../content-video.php:52 ../content-video.php:154
 #: ../content.php:58 ../content.php:179
 msgid "By"
-msgstr "Af"
+msgstr "Skrevet af"
 
 #: ../content-aside.php:186 ../content-audio.php:233
 #: ../content-gallery.php:152 ../content-image.php:157 ../content-link.php:196

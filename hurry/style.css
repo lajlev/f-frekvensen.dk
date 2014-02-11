@@ -6,9 +6,9 @@
     Author URI:     http://www.2f-design.fr
     Version:        1.0
     Tags:           flexible-width, white, post-formats, theme-options,translation-ready, grid, retina, responsive
-    
+
     License: GNU General Public License V2 or Later
-    License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
     CSS PARTS:
 
@@ -16,7 +16,7 @@
     2. HEADER
     3. CONTAINER
     4. HOME, PAGINATION
-    5. POST TYPES, BLOG 
+    5. POST TYPES, BLOG
     6. STANDARD BLOG PAGE
     7. SPECIAL PAGES
     8. SHORTCODES,FORMS
@@ -93,7 +93,7 @@ article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, me
     font-size:100%;
     vertical-align:baseline;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display:block;
 }
 nav ul {
@@ -133,21 +133,21 @@ strong{
 /******************************************************
 TYPOGRAPHY
 ******************************************************/
-a { 
+a {
     text-decoration: none;
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;
-        -ms-transition: all .1s ease-in-out;       
+        -ms-transition: all .1s ease-in-out;
          -o-transition: all .1s ease-in-out;
-            transition: all .1s ease-in-out;         
-}    
-a:hover { 
+            transition: all .1s ease-in-out;
+}
+a:hover {
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;
-        -ms-transition: all .1s ease-in-out;       
+        -ms-transition: all .1s ease-in-out;
          -o-transition: all .1s ease-in-out;
-            transition: all .1s ease-in-out; 
-}   
+            transition: all .1s ease-in-out;
+}
 h2,h3,h4,h5,h6, h2 p { color: #2E3236; font-weight: bold; }
 h1 { font-size: 54px; line-height: 65px; font-weight: bold; letter-spacing: -2px;}
 h2, h2 p { font-size: 36px; line-height: 50px; font-weight: bold; letter-spacing: -2px;}
@@ -155,9 +155,9 @@ p{font-size: 15px;}
 h4,h4 p {
     font: 28px ;
     margin-bottom: 25px;
-    font-weight: 300; 
+    font-weight: 300;
 }
-h5 { 
+h5 {
     font-size: 14px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -167,24 +167,24 @@ h6 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-::selection { 
+::selection {
     background: #F2F6F6;
     text-shadow: none;
 }
 /******************************************************
 Additional classes here
 ******************************************************/
-.center { 
+.center {
     text-align: center;
 }
-.justify { 
-    text-align: justify; 
+.justify {
+    text-align: justify;
 }
-.m1 { 
-    margin-top: 24px; 
+.m1 {
+    margin-top: 24px;
 }
-.m2 { 
-    margin-top: 48px; 
+.m2 {
+    margin-top: 48px;
 }
 .clearfix:after {
     visibility: hidden;
@@ -207,7 +207,7 @@ Additional classes here
 }
 .container:after {
   clear: both;
-} 
+}
 /******************************************************************************************************************************
 *******************************************************************************************************************************
 HEADER (#header)
@@ -308,7 +308,7 @@ MENU (#main-menu)
 #main-menu #logo h1{
     color: #FFF;
     font-size: 42px;
-    line-height: 65px; 
+    line-height: 65px;
     font-weight: bold;
 }
 #main-menu  #logo a:hover{
@@ -467,19 +467,20 @@ CONTAINER HEADER (#container-header)
 }
 #wrapper-container #container-header .container-padding-image{
     padding: 45px;;
-} 
+}
 #wrapper-container #container-header div{
-    border-bottom: 1px solid #f2f4f1; 
+    border-bottom: 1px solid #f2f4f1;
     border-radius: 3px 3px 0 0;
 }
 #wrapper-container #container-main #container-header h1{
     margin: 0 !important;
 }
 #wrapper-container #container-header.featured-image-on div{
-    border-bottom: 0; 
+    border-bottom: 0;
 }
 #wrapper-container #container-main #container-header.featured-image-on *{
     color: #FFF;
+    text-shadow: 2px 2px 0px #222;
 }
 #wrapper-container #container-main #container-header.featured-image-on a:hover{
     opacity: .7;
@@ -527,7 +528,7 @@ CONTAINER MAIN (#wrapper-container)
     font-size: 15px;
 }
 #wrapper-container .container ul li{
-    list-style-type: square; 
+    list-style-type: square;
 }
 #wrapper-container .container blockquote{
     line-height: 32px;
@@ -542,7 +543,7 @@ CONTAINER FOOTER (#container-footer)
 }
 /******************************************************************************************************************************
 *******************************************************************************************************************************
-HOME, PAGINATION 
+HOME, PAGINATION
 *******************************************************************************************************************************
 *******************************************************************************************************************************/
 #wrapper-container #masonry-container{
@@ -620,7 +621,7 @@ POST HOVER IN THE HOME PAGE
     width: 100%;
     display: inline-block;
 }
-#masonry-container .post-hidden:hover{ 
+#masonry-container .post-hidden:hover{
     -webkit-transition: all 0.4s ease;
        -moz-transition: all 0.4s ease;
          -o-transition: all 0.4s ease;
@@ -628,7 +629,7 @@ POST HOVER IN THE HOME PAGE
             transition: all 0.4s ease;
     opacity: .9;
 }
-#masonry-container .post-hidden a:hover{ 
+#masonry-container .post-hidden a:hover{
     color: #f2f4f1 !important;
 }
 #masonry-container .post-hidden .post-icon{
@@ -778,7 +779,7 @@ QUOTE FORMAT
 /******************************************************
 VIDEO, IMAGE, GALLERY, AUDIO FORMAT
 ******************************************************/
-#wrapper-container .container .post-image .container-content .container-padding h1, 
+#wrapper-container .container .post-image .container-content .container-padding h1,
 #wrapper-container .container .post-gallery .container-content .container-padding h1,
 #wrapper-container .container .post-video .container-content .container-padding h1,
 #wrapper-container .container .post-audio .container-content .container-padding h1{
@@ -805,7 +806,7 @@ STANDARD BLOG PAGE
     top: 4px;
 }
 #standard-blog .breaker{
-    margin: 12px auto 48px;    
+    margin: 12px auto 48px;
 }
 #standard-blog .post{
     border-bottom: 1px solid #f2f4f1;
@@ -878,7 +879,7 @@ span.dropcap{
     margin: 5px 17px 0 0;
     text-transform: uppercase;
     text-align: center;
-    width: 36px; 
+    width: 36px;
 }
 /******************************************************
 BREAKER
@@ -887,7 +888,7 @@ div.breaker{
     background-color: #f2f4f1;
     width: 75%;
     margin: 48px auto;
-    height: 1px; 
+    height: 1px;
 }
 /******************************************************
 ICONS
@@ -920,8 +921,8 @@ input[type="text"], input[type="email"], textarea{
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-border-radius: 3px; 
-       -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
             border-radius: 3px;
     -webkit-appearance:none;
 }
@@ -1165,7 +1166,7 @@ SIDEBAR (#container-sidebar)
 }
 /******************************************************************************************************************************
 *******************************************************************************************************************************
-WIDGETS 
+WIDGETS
 *******************************************************************************************************************************
 *******************************************************************************************************************************/
 .widget p{ font-size: 14px;}
@@ -1203,12 +1204,12 @@ SEARCH
     -webkit-appearance: none;
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
        -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);   
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     -webkit-transition: all 0.10s ;
        -moz-transition: all 0.10s ;
         -ms-transition: all 0.10s ;
          -o-transition: all 0.10s ;
-            transition: all 0.10s ; 
+            transition: all 0.10s ;
 }
 .searchform input[type="text"]:focus {
     background-position: 95% -18px;
@@ -1234,7 +1235,7 @@ LATEST POSTS
 ******************************************************/
 .widget .last-posts-widget li{
     border-radius: 3px;
-    color: #FFF; 
+    color: #FFF;
     padding: 8px 0px;
     margin-bottom: 12px;
     display: block;
@@ -1247,7 +1248,7 @@ LATEST POSTS
     padding-left: 12px;
 }
 .widget .last-posts-widget a{
-    color: #FFF; 
+    color: #FFF;
     font-weight: bold;
     padding-left: 18px;
 }
@@ -1296,7 +1297,7 @@ TAGS
 *******************************************************/
 .widget ul.tags li a{
     border-radius: 3px;
-    color: #FFF; 
+    color: #FFF;
     padding: 6px 8px;
     display: inline-block;
 }
@@ -1378,7 +1379,7 @@ FOOTER MENU
     margin-left: 12px;
 }
 #footer-menu nav ul li a{
-    color: #f2f4f1;
+    color: #999;
     font-weight: bold;
 }
 #footer-menu nav ul li:before{
@@ -1503,7 +1504,7 @@ THEME ANIMATION ALL IN CSS (INSPIRED BY http://themeforest.net/user/ThemeBeans)
 @-moz-keyframes GoIn {
     0%   {opacity: 0; -moz-transform: translateY(-2000px);}
     60%  {opacity: 1; -moz-transform: translateY(30px);}
-    80%  {-moz-transform: translateY(-10px);}               
+    80%  {-moz-transform: translateY(-10px);}
     100% {-moz-transform: translateY(0);}
 }
 @-o-keyframes GoIn {
@@ -1514,7 +1515,7 @@ THEME ANIMATION ALL IN CSS (INSPIRED BY http://themeforest.net/user/ThemeBeans)
 }
 @keyframes GoIn {
     0%   {opacity: 0; transform: translateY(-2000px);}
-    60%  {opacity: 1; transform: translateY(30px);}   
+    60%  {opacity: 1; transform: translateY(30px);}
     80%  {transform: translateY(-10px);}
     100% {transform: translateY(0);}
 }
@@ -2026,11 +2027,11 @@ ISOTOPE
 *******************************************************************************************************************************/
 /**** Isotope Filtering ****/
 .isotope-item { z-index: 2; }
- 
+
 .isotope-hidden.isotope-item {
     pointer-events: none;
     z-index: 1; }
- 
+
 /**** Isotope CSS3 transitions ****/
 .isotope,
 .isotope .isotope-item {
@@ -2039,21 +2040,21 @@ ISOTOPE
     -ms-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s; }
- 
+
 .isotope {
     -webkit-transition-property: height, width;
     -moz-transition-property: height, width;
     -ms-transition-property: height, width;
     -o-transition-property: height, width;
     transition-property: height, width; }
- 
+
     .isotope .isotope-item {
         -webkit-transition-property: -webkit-transform, opacity;
         -moz-transition-property: -moz-transform, opacity;
         -ms-transition-property: -ms-transform, opacity;
         -o-transition-property: top, left, opacity;
         transition-property: transform, opacity; }
- 
+
     /**** disabling Isotope CSS3 transitions ****/
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
@@ -2063,10 +2064,10 @@ ISOTOPE
         -ms-transition-duration: 0s;
         -o-transition-duration: 0s;
         transition-duration: 0s; }
- 
+
 /**** Isotope filtering ****/
 .isotope-item { z-index: 2; }
- 
+
 .isotope-hidden.isotope-item {
     pointer-events: none;
     z-index: 1; }

@@ -102,9 +102,12 @@
 @media (max-width: 640px) {
 	h1 { font-size: 28px; line-height: 65px; font-weight: bold; letter-spacing: -2px;}
 	h2, h2 p { font-size: 20px; line-height: 50px; font-weight: bold; letter-spacing: -2px;}
-	p{
+	p {
 		font-size: 13px;
-		line-height: 50px;
+		line-height: 20px;
+	}
+	#wrapper-container p {
+		line-height: 20px;
 	}
 	h4,h4 p {
 	    font: 18px ;
@@ -139,12 +142,19 @@
 	#container-author p{
 		padding-left: 0;
 	}
-	#container-comments .container-padding{
-		padding: 0 30px 30px 30px;
+
+	#wrapper-container .container-padding {
+		padding: 10px 10px 0px 10px;
 	}
+
 	#wrapper-container #container-header.featured-image-on .container-padding {
 		padding: 40px;
 	}
+
+	#container-main #postmetadata {
+		padding: 0 0px;
+	}
+
 	#container-sidebar{
 		margin-top: 48px;
 		text-align: center;
@@ -172,9 +182,7 @@
 	#wrapper-container #container-main #container-header h1{
 		text-align: center;
 	}
-	#wrapper-container .container-padding {
-		padding: 30px 30px 100px 30px;
-	}
+
 	#container-author p{
 		padding-left: 0;
 	}

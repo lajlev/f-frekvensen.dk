@@ -1,0 +1,190 @@
+/*
+ * Hurry - Minimalist Blogging Theme
+ *
+ * Copyright (c) 2013 F²
+ * 
+ * Responsive changes
+ * 
+ */
+@media (max-width: 1100px) { 
+	.container{
+	    width: 720px;
+	}
+	#wrapper-container #masonry-container .masonry-item.sticky{
+		width: 480px;
+	}
+	#container-sidebar{
+		margin-top: 48px;
+		text-align: center;
+		width: 100%;
+	}
+	.three_fourth.container-column{
+		width: 100%;
+	}
+	#container-sidebar .widget{
+		width: 40%;
+		margin: 5%;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 788px) and (max-width: 979px) {
+	#main-menu #logo, #main-menu #menu {
+		float: none;
+		text-align: center;
+	}
+	.container{
+	    width: 480px;
+	}
+	#wrapper-container #masonry-container .masonry-item{
+		width: 240px;
+	}
+	#wrapper-container #masonry-container .masonry-item.sticky{
+		width: 480px;
+	}
+	.container-column{
+		width: 100%;
+	}
+	#container-sidebar .widget{
+		float: none;
+	}
+	#footer-social nav ul li{
+		margin-bottom: 12px;
+	}
+   .one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth {
+    	width: 100%; 
+    }
+	#container-sidebar .widget{
+		width: 100%;
+		margin: 0%;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 787px) {
+	.container{
+	    width: 480px;
+	}
+	#footer-social nav ul li{
+		margin-bottom: 12px;
+	}
+	#top-bar{display: none;}
+	.js #menu {
+	  clip: rect(0 0 0 0);
+	  max-height: 0;
+	  position: absolute;
+	  display: block;
+	  overflow: hidden;
+	  zoom: 1;
+	}
+	#wrapper-container #masonry-container .masonry-item{
+		width: 240px;
+	}
+	#wrapper-container #masonry-container .masonry-item.sticky{
+		width: 480px;
+	}
+	.container-column{
+		width: 100%;
+	}
+	#container-sidebar .widget{
+		float: none;
+	}
+	#wrapper-container #container-main #container-header h1{
+		text-align: center;
+	}
+	#container-sidebar .widget{
+		width: 100%;
+		margin: 0%;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 640px) {
+	h1 { font-size: 28px; line-height: 65px; font-weight: bold; letter-spacing: -2px;}
+	h2, h2 p { font-size: 20px; line-height: 50px; font-weight: bold; letter-spacing: -2px;}
+	p{font-size: 15px;}
+	h4,h4 p {
+	    font: 18px ;
+	    margin-bottom: 25px;
+	    font-weight: 300; 
+	}
+	#main-menu #logo, #main-menu #menu {
+		float: none;
+		text-align: center;
+	}
+	#main-menu #menu ul li{
+		line-height: 36px;
+	}
+	.container{
+	    width: 240px;
+	}
+	#wrapper-container #masonry-container .masonry-item, #wrapper-container #masonry-container .masonry-item.sticky{
+		width: 240px;
+	}
+	#wrapper-container #container-main #container-header h1{
+		text-align: center;
+	}
+	#wrapper-container .container ul, #wrapper-container .container ol{
+		padding-left: 12px;
+	}
+	#commentform .one_half{
+		width: 100%;
+	}
+	#wrapper-container .container-padding {
+		padding: 30px 30px 100px 30px;
+	}
+	#container-author p{
+		padding-left: 0;
+	}
+	#container-comments .container-padding{
+		padding: 0 30px 30px 30px;
+	}
+	#wrapper-container #container-header.featured-image-on .container-padding {
+		padding: 40px;
+	}
+	#container-sidebar{
+		margin-top: 48px;
+		text-align: center;
+	}
+	#container-sidebar .widget{
+		width: 100%;
+		margin: 0%;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.container{
+	    width: 240px;
+	}
+	#nav-toggle {
+		display: inline-block;
+		float: none;
+		text-align: center;
+		width: 210px;
+	}
+	#main-menu  #menu.opened{
+		text-align: center;
+	}
+	#wrapper-container #container-main #container-header h1{
+		text-align: center;
+	}
+	#wrapper-container .container-padding {
+		padding: 30px 30px 100px 30px;
+	}
+	#container-author p{
+		padding-left: 0;
+	}
+	#wrapper-container{
+		margin-top: 24px;
+	}
+	#wrapper-container .container ul, #wrapper-container .container ol{
+		padding-left: 12px;
+	}
+	#commentform .one_half{
+		width: 100%;
+	}
+	#wrapper-container #container-header.featured-image-on .container-padding {
+		padding: 40px;
+	}
+}

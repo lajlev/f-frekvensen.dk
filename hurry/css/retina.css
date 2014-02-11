@@ -1,0 +1,22 @@
+/*
+ * Hurry - Minimalist Blogging Theme
+ *
+ * Copyright (c) 2013 F²
+ * 
+ * Retina stylesheet
+ * 
+ */
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+      .searchform input[type="text"]{
+            background-image: url('../images/magnify@2x.png');
+            background-size: 18px 50px;
+      }
+      .tweet_list li {
+            background-image: url('../images/widget-twitter@2x.png');
+            background-size: 20px 18px;
+      }
+      .infinite-loader {
+            background-image: url('../images/ajax-loader@2x.gif');
+            background-size: 16px 16px;
+      }
+}

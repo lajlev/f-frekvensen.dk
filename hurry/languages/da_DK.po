@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: F-frekvensen.dk\n"
+"Language: da\n"
+
+#: ../404.php:18
+msgid "404 error: Not found..."
+msgstr "404 fejl: Ikke fundet..."
+
+#: ../404.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Det ser ud til at vi ikke kan finde det, du leder efter. Prøv at søg, eller klik på en af de nedenstående links."
+
+#: ../archive.php:23
+msgid "Daily Archives: %s"
+msgstr "Daglig Arkiver: %s"
+
+#: ../archive.php:25
+msgid "Monthly Archives: %s"
+msgstr "Månedlig Arkiv: %s"
+
+#: ../archive.php:27
+msgid "Yearly Archives: %s"
+msgstr "Årlige Arkiv: %s"
+
+#: ../archive.php:29
+msgid "Category Archives: %s"
+msgstr "Kategori Arkiv: %s"
+
+#: ../archive.php:31
+msgid "Blog Archives"
+msgstr "Blog-arkiver"
+
+#: ../archive.php:55 ../index.php:40 ../search.php:37
+msgid "Load more posts"
+msgstr "Indlæs flere indlæg"
+
+#: ../archive.php:69
+msgid "Apologies, but no results were found for the requested archive."
+msgstr "Undskyld, men ingen resultater blev fundet for det forspurgte arkiv."
+
+#: ../comments.php:39
+msgid "There is no comment on this post."
+msgstr "Der er ingen kommentar til dette indlæg."
+
+#: ../content-aside.php:53 ../content-aside.php:176 ../content-audio.php:72
+#: ../content-audio.php:223 ../content-gallery.php:35
+#: ../content-gallery.php:142 ../content-image.php:37 ../content-image.php:147
+#: ../content-link.php:57 ../content-link.php:186 ../content-quote.php:53
+#: ../content-quote.php:180 ../content-status.php:53 ../content-status.php:178
+#: ../content-video.php:47 ../content-video.php:149 ../content.php:53
+#: ../content.php:174
+msgid "Categorized in"
+msgstr "Kategoriseret i"
+
+#: ../content-aside.php:56 ../content-aside.php:179 ../content-audio.php:75
+#: ../content-audio.php:226 ../content-gallery.php:38
+#: ../content-gallery.php:145 ../content-image.php:40 ../content-image.php:150
+#: ../content-link.php:60 ../content-link.php:189 ../content-quote.php:56
+#: ../content-quote.php:183 ../content-status.php:56 ../content-status.php:181
+#: ../content-video.php:50 ../content-video.php:152 ../content.php:56
+#: ../content.php:177
+msgid "Tagged in"
+msgstr "Tagget i"
+
+#: ../content-aside.php:58 ../content-aside.php:181 ../content-audio.php:77
+#: ../content-audio.php:228 ../content-gallery.php:40
+#: ../content-gallery.php:147 ../content-image.php:42 ../content-image.php:152
+#: ../content-link.php:62 ../content-link.php:191 ../content-page.php:44
+#: ../content-quote.php:58 ../content-quote.php:185 ../content-status.php:58
+#: ../content-status.php:183 ../content-video.php:52 ../content-video.php:154
+#: ../content.php:58 ../content.php:179
+msgid "By"
+msgstr "Af"
+
+#: ../content-aside.php:186 ../content-audio.php:233
+#: ../content-gallery.php:152 ../content-image.php:157 ../content-link.php:196
+#: ../content-quote.php:190 ../content-status.php:188 ../content-video.php:159
+#: ../content.php:184
+msgid "Read More"
+msgstr "Læs mere"
+
+#: ../functions.php:44
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: ../functions.php:45
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: ../functions.php:119
+msgid "Page %s"
+msgstr "Side %s"
+
+#: ../functions.php:136
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../functions.php:136
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: ../functions.php:151
+msgid "Post author"
+msgstr "Indlægets forfatter"
+
+#: ../functions.php:157
+msgid "%1$s at %2$s"
+msgstr "%1$s ved %2$s"
+
+#: ../functions.php:164
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation."
+
+#: ../functions.php:169
+msgid "Edit"
+msgstr "Rediger"
+
+#: ../functions.php:173
+msgid "Reply"
+msgstr "Svar"
+
+#: ../functions.php:336
+msgid "Select Video Type"
+msgstr "Vælg Video Type"
+
+#: ../functions.php:347
+msgid "Insert Video ID (e.g. http://www.youtube.com/watch?v=<strong>Y2HIK1lgb3U</strong>)"
+msgstr "Indsæt video-id (f.eks http://www.youtube.com/watch?v = <strong> Y2HIK1lgb3U </ strong>)"
+
+#: ../functions.php:448
+msgid "Do you like this post ?"
+msgstr "Kan du lide dette indlæg?"
+
+#: ../header.php:57
+msgid "%s latest posts"
+msgstr "%s nyeste indlæg"
+
+#: ../header.php:58
+msgid "%s latest comments"
+msgstr "%s seneste kommentarer"
+
+#: ../header.php:86
+msgid "Open the widgets"
+msgstr "Åbn widgets"
+
+#: ../page-sitemap.php:54
+msgid "Archives"
+msgstr "Arkiver"
+
+#: ../page-sitemap.php:60
+msgid "Categories"
+msgstr "Kategorier"
+
+#: ../page-sitemap.php:66
+msgid "Pages"
+msgstr "Sider"
+
+#: ../search.php:15
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: ../search.php:51
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Beklager, men intet matchede dine søgekriterier. Prøv venligst igen med nogle forskellige søgeord."
+
+#: ../searchform.php:9
+msgid "Search here..."
+msgstr "Søg her ..."
+
+#: ../admin/theme-settings.php:69
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../admin/theme-settings.php:70
+msgid "Upload a 32px x 32x image which will represent your website's favicon.<br /><br /><em>To ensure cross-browser compatibility, we recommend converting the favicon into .ico format before uploading (or not). (<a href=\"http://www.favicon.cc/\"  target=\"_blank\">www.favicon.cc</a>)</em>"
+msgstr "Upload et 32px x 32x billede, som vil repræsentere din hjemmesides favicon. <br /> <br /> <em> At sikre cross-browser kompatibilitet, anbefaler vi at konvertere favicon ind. Ico format, før du uploader (eller ikke). (<a Href=\"http://www.favicon.cc/\" target=\"_blank\"> www.favicon.cc </ a>) </ em>"
+
+#: ../admin/theme-settings.php:75
+msgid "Enable Responsive"
+msgstr "Aktiver Responsive"
+
+#: ../admin/theme-settings.php:81
+msgid "Enable Retina Images"
+msgstr "Aktiver Retina Images"
+
+#: ../admin/theme-settings.php:87
+msgid "See the scroll button"
+msgstr "Se rulleknap"
+
+#: ../admin/theme-settings.php:93
+msgid "Custom CSS"
+msgstr "Brugerdefineret CSS"
+
+#: ../admin/theme-settings.php:94
+msgid "Without the tags: \"&lt;style&gt;\""
+msgstr "Uden tags: \"<style>\""
+
+#: ../admin/theme-settings.php:99
+msgid "Custom Javascript"
+msgstr "Brugerdefineret Javascript"
+
+#: ../admin/theme-settings.php:100
+msgid "Without the tags: \"&lt;script&gt;\""
+msgstr "Uden tags: \"<script>\""
+
+#: ../admin/theme-settings.php:105
+msgid "Bookmark icon for IOS (retina)"
+msgstr "Bogmærkeikon for IOS (nethinden)"
+
+#: ../admin/theme-settings.php:106
+msgid "Upload a 114px x 114px image displayed on your Apple's devices."
+msgstr "Upload et 114px x 114px billede, der vises på din Apples enheder."
+
+#: ../admin/theme-settings.php:111
+msgid "Bookmark icon for IOS (not retina)"
+msgstr "Bogmærkeikon for IOS (ikke nethinden)"
+
+#: ../admin/theme-settings.php:112
+msgid "Upload a 72px x 72px image displayed on your Apple's devices."
+msgstr "Upload et 72px x 72px billede, der vises på din Apples enheder."
+
+#: ../admin/theme-settings.php:121
+msgid "Display the top bar (slogan with arrow for the widgets)."
+msgstr "Vise det øverste bar (slogan med pil for widgets)."
+
+#: ../admin/theme-settings.php:127
+msgid "Logo"
+msgstr "Logo"
+
+#: ../admin/theme-settings.php:128
+msgid "Upload your logo here, not necessarily required."
+msgstr "Upload dit logo her, ikke nødvendigvis."
+
+#: ../admin/theme-settings.php:133
+msgid "Logo Width"
+msgstr "Logobredde"
+
+#: ../admin/theme-settings.php:139
+msgid "Logo Height"
+msgstr "Logohøjde"
+
+#: ../admin/theme-settings.php:147
+msgid "Design"
+msgstr "Design"
+
+#: ../admin/theme-settings.php:150
+msgid "Main Color"
+msgstr "Hoved farve"
+
+#: ../admin/theme-settings.php:151
+msgid "Color all the elements colored in this theme(links, some headings, post hover in the home page...)"
+msgstr "Farvelæg alle elementer farvet i dette tema (links, nogle udgiftsområder, post svæve i hjemmet side ...)"
+
+#: ../admin/theme-settings.php:156
+msgid "Color 2"
+msgstr "Farve 2"
+
+#: ../admin/theme-settings.php:157
+msgid "Light grey used mainly on the text which is on the background (menu, footer)"
+msgstr "Lysegrå bruges hovedsageligt om den tekst, som er på baggrunden (menu, footer)"
+
+#: ../admin/theme-settings.php:162
+msgid "Color 3"
+msgstr "Color 3"
+
+#: ../admin/theme-settings.php:163
+msgid "Mainly used for all the rest (texts...) (."
+msgstr "Hovedsageligt bruges til alle resten (texts. ..) (."
+
+#: ../admin/theme-settings.php:168
+msgid "Font"
+msgstr "Font"
+
+#: ../admin/theme-settings.php:169
+msgid "Choose your font if you doesn't like the default one. Otherwise, we use \"helvetica neue\"<br /><br /><em>To show them: <a href=\"http://www.google.com/webfonts\"  target=\"_blank\">www.google.com/webfonts</a></em>"
+msgstr "Vælg din skrifttype, hvis du ikke kan lide den standard en. Ellers bruger vi \"helvetica neue\" <br /> <br /> <em> at vise dem: <a href=\"http://www.google.com/webfonts\" target=\"_blank\"> www.google. dk / webfonts </ a> </ em>"
+
+#: ../admin/theme-settings.php:181
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+#: ../admin/theme-settings.php:187
+msgid "Background image"
+msgstr "Baggrundsbillede"
+
+#: ../admin/theme-settings.php:188
+msgid "Upload your own background (used as a pattern). <strong>Not necessary needed, it'll replace the colored background</strong>"
+msgstr "Upload dit eget baggrund (bruges som et mønster). <strong> nødvendig Ikke nødvendig, vil den erstatte den farvede baggrund </ strong>"
+
+#: ../admin/theme-settings.php:195
+msgid "Footer"
+msgstr "Sidefod"
+
+#: ../admin/theme-settings.php:198
+msgid "Footer text"
+msgstr "Sidefodstekst"
+
+#: ../admin/theme-settings.php:204
+msgid "Display the menu-footer in the footer."
+msgstr "Vis menuen-footer i bunden."
+
+#: ../admin/theme-settings.php:210
+msgid "Display the social icons in the footer."
+msgstr "Vise de sociale ikoner i bunden."
+
+#: ../admin/theme-settings.php:218
+msgid "Social"
+msgstr "Social"
+
+#: ../admin/theme-settings.php:221
+msgid "Show RSS icon ?"
+msgstr "Vis RSS-ikon?"
+
+#: ../admin/theme-settings.php:227
+msgid "Twitter USER name"
+msgstr "Twitter-brugernavn"
+
+#: ../admin/theme-settings.php:233
+msgid "Flickr ID"
+msgstr "Flickr-ID"
+
+#: ../admin/theme-settings.php:239
+msgid "Dribbble USER name"
+msgstr "Dribbble brugernavn"
+
+#: ../admin/theme-settings.php:245
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: ../admin/theme-settings.php:251
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../admin/theme-settings.php:257
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../admin/theme-settings.php:263
+msgid "Google Plus URL"
+msgstr "Google Plus URL"
+
+#: ../admin/theme-settings.php:269
+msgid "Dribbble URL"
+msgstr "Dribbble URL"
+
+#: ../admin/theme-settings.php:275
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../admin/theme-settings.php:281
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: ../admin/theme-settings.php:287
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: ../admin/theme-settings.php:293
+msgid "Linkedin URL"
+msgstr "Linkedin URL"
+
+#: ../admin/theme-settings.php:299
+msgid "Reddit URL"
+msgstr "Reddit URL"
+
+#: ../admin/theme-settings.php:305
+msgid "Stumbleupon URL"
+msgstr "StumbleUpon URL"
+
+#: ../admin/theme-settings.php:311
+msgid "Spotify URL"
+msgstr "Spotify URL"
+
+#: ../admin/theme-settings.php:317
+msgid "Lastfm URL"
+msgstr "LastFM URL"
+
+#: ../admin/theme-settings.php:323
+msgid "Tumblr URL"
+msgstr "Tumblr URL"
+
+#: ../admin/theme-settings.php:330
+msgid "SEO"
+msgstr "SEO"
+
+#: ../admin/theme-settings.php:333
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: ../admin/theme-settings.php:334
+msgid "Paste Google Analytics (or other) tracking code here. Without the &lt;script&gt; tags please."
+msgstr "Indsæt Google Analytics (eller andet) sporingskode her. Uden <script> tags please."
+
+#: ../admin/theme-settings.php:339
+msgid "SEO famous plugin"
+msgstr "SEO berømte plugin"
+
+#: ../admin/theme-settings.php:345
+msgid "Site Description"
+msgstr "Webstedet Beskrivelse"
+
+#: ../admin/theme-settings.php:346
+msgid "Description used for SEO in all yor site"
+msgstr "Beskrivelse bruges til SEO i alle yor websted"
+
+#: ../admin/theme-settings.php:351
+msgid "Keywords"
+msgstr "Nøgleord"
+
+#: ../admin/theme-settings.php:352
+msgid "Keywords used in all your site for the SEO (separated with a comma please)"
+msgstr "Søgeord, der bruges i alle dine site for SEO (adskilt med et komma venligst)"
+
+#: ../includes/theme-social.php:9
+msgid "Join us on Facebook"
+msgstr "Like os på Facebook"
+
+#: ../includes/theme-social.php:13
+msgid "Join us on Twitter"
+msgstr "Følg os på Twitter"
+
+#: ../includes/theme-social.php:17
+msgid "Join us on Vimeo"
+msgstr "Se vores videoer på Vimeo"
+
+#: ../includes/theme-social.php:21
+msgid "Join us on Flickr"
+msgstr "Find os på Flickr"
+
+#: ../includes/theme-social.php:25
+msgid "Join us on Google Plus"
+msgstr "Find os på Google Plus"
+
+#: ../includes/theme-social.php:29
+msgid "Join us on Pinterest"
+msgstr "Find os på Pinterest"
+
+#: ../includes/theme-social.php:33
+msgid "Join us on Tumblr"
+msgstr "Find os på Tumblr"
+
+#: ../includes/theme-social.php:37
+msgid "Join us on Reddit"
+msgstr "Find os på Reddit"
+
+#: ../includes/theme-social.php:41
+msgid "Join us on Instagram"
+msgstr "Find os på Instagram"
+
+#: ../includes/theme-social.php:45
+msgid "Join us on Linkedin"
+msgstr "Find os på Linkedin"
+
+#: ../includes/theme-social.php:49
+msgid "Join us on Dribbble"
+msgstr "Find os på Dribbble"
+
+#: ../includes/theme-social.php:53
+msgid "Join us on Stumbleupon"
+msgstr "Find os på Stumbleupon"
+
+#: ../includes/theme-social.php:57
+msgid "Join us on Lastfm"
+msgstr "Find os på LastFM"
+
+#: ../includes/theme-social.php:61
+msgid "Join us on Spotify"
+msgstr "Find os på Spotify"
+
+#: ../includes/theme-social.php:65
+msgid "Subscribe to our RSS feed"
+msgstr "Abonner på vores RSS-feed"
+
+#: ../includes/widget-dribbble.php:47 ../includes/widget-flickr.php:47
+#: ../includes/widget-social.php:49 ../includes/widget-twitter.php:47
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../includes/meta-box/inc/classes/meta-box.php:284
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Ret fejlene fremhævet nedenfor og prøv igen."
+
+#: ../includes/meta-box/inc/classes/meta-box.php:342
+msgid "+"
+msgstr "+"
+
+#: ../includes/meta-box/inc/classes/meta-box.php:364
+msgid "&#8211;"
+msgstr "-"
+
+#: ../includes/meta-box/inc/fields/file.php:65
+msgid "Error: Cannot delete file"
+msgstr "Fejl: Kan ikke slette fil"
+
+#: ../includes/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr "Bestiling gemt"
+
+#: ../includes/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr "Find adresse"
+
+#: ../includes/meta-box/inc/fields/select-advanced.php:82
+msgid "Select a value"
+msgstr "Vælg en værdi"
+
